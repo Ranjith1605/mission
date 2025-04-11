@@ -1,9 +1,10 @@
-/* style.css */
+/* cyberpunk.css */
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Arial', sans-serif;
@@ -16,6 +17,17 @@ h1 {
   font-size: 3rem;
   text-align: center;
   animation: glow 1.5s infinite alternate;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff00cc;
+  color: #ffffff;
+  border-radius: 5px;
 }
 
 @keyframes glow {
