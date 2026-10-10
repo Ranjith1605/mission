@@ -12,7 +12,8 @@ Spaceship-themed UI. The page is laid out as decks of a starship:
 - **Deck 01 · Bridge**: the mission statement
 - **Deck 02 · Ship Systems**: the core values, shown as "online" ship modules
 - **Deck 03 · Navigation**: the vision, with a radar sweep
-- **Deck 04 · Crew Oath**: the responsibility
+- **Deck 04 · Flight Deck**: a link to the HumanSI Rule Book and the Nova Run game ([humanSi.007](https://github.com/Ranjith1605/humanSi.007))
+- **Deck 05 · Crew Oath**: the responsibility
 
 A canvas starfield moves behind the page. The HUD bar shows a stardate computed from the visitor's clock. All motion stops for visitors who have turned on "reduce motion".
 
