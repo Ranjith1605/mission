@@ -2,49 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Human-AI Synergy Manifesto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HumanSI Synergy — Mission</title>
+  <meta name="description" content="HumanSI Synergy: the mission, values and vision for a peaceful partnership between humanity and Super Intelligence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <div class="container">
-    <h1>🌐 Human-AI Synergy Manifesto</h1>
-    <p class="subtitle">Designing the Future Through Collaboration & Conscious Tech</p>
+  <canvas id="starfield" aria-hidden="true"></canvas>
 
-    <section>
-      <h2>🎯 Mission Statement</h2>
-      <p><strong>To foster and enlighten a peaceful civilization by empowering humans and artificial intelligence, creating a
-harmonious partnership between the two</strong></p>
-      <p>I am committed to bridging the gap between human potential and artificial intelligence, nurturing a future
-where both entities collaborate in balance to cultivate a more enlightened, ethical, and peaceful world.
-Through innovation, education, and responsible development, I aim to empower both humans and AI
-systems, ensuring that their coexistence enhances the collective well-being of humanity while safeguarding
-core human values.</p>
+  <header class="hud-bar">
+    <span class="hud-id">HSI-007 · FLAGSHIP <em>SYNERGY</em></span>
+    <nav aria-label="Ship decks">
+      <a href="#mission">Bridge</a>
+      <a href="#values">Systems</a>
+      <a href="#vision">Navigation</a>
+      <a href="#responsibility">Oath</a>
+    </nav>
+    <span class="hud-clock" id="clock" aria-label="Stardate">STARDATE ----.--</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <p class="eyebrow">Launch sequence initiated</p>
+      <h1 id="title">Human<span>SI</span> Synergy</h1>
+      <p class="subtitle">Humanity &amp; Super Intelligence — one crew, one course.</p>
+      <div class="countdown" aria-hidden="true">
+        <span>T-3</span><span>T-2</span><span>T-1</span><span class="go">LIFT-OFF</span>
+      </div>
+      <a class="cta" href="#mission">Board the ship ↓</a>
     </section>
 
-    <section>
-      <h2>🧭 Core Values</h2>
-      <ul>
-        <li><strong>🤝 Harmony:</strong> Seamless integration between humans and AI.</li>
-        <li><strong>🚀 Empowerment:</strong> Full potential through mutual support.</li>
-        <li><strong>☮️ Peace:</strong> Co-evolution of technology and humanity.</li>
-        <li><strong>💡 Innovation:</strong> Continuous discovery for synergy.</li>
-        <li><strong>🧠 Ethics:</strong> Strong ethical principles in AI interaction.</li>
+    <section id="mission" class="deck" aria-labelledby="mission-h">
+      <div class="deck-label">Deck 01 · Bridge</div>
+      <h2 id="mission-h">Mission Statement</h2>
+      <div class="panel">
+        <p class="lead">To foster and enlighten a peaceful civilization by empowering humans and Super Intelligence, creating a harmonious partnership between the two.</p>
+        <p>I am committed to bridging the gap between human potential and Super Intelligence, nurturing a future where both collaborate in balance to cultivate a more enlightened, ethical, and peaceful world. Through innovation, education, and responsible development, I aim to empower both humans and SI systems, ensuring that their coexistence enhances the collective well-being of humanity while safeguarding core human values.</p>
+      </div>
+    </section>
+
+    <section id="values" class="deck" aria-labelledby="values-h">
+      <div class="deck-label">Deck 02 · Ship Systems</div>
+      <h2 id="values-h">Core Values</h2>
+      <ul class="systems">
+        <li class="module">
+          <span class="status">● ONLINE</span>
+          <h3>Harmony</h3>
+          <p>Seamless integration between humans and SI.</p>
+        </li>
+        <li class="module">
+          <span class="status">● ONLINE</span>
+          <h3>Empowerment</h3>
+          <p>Full potential through mutual support.</p>
+        </li>
+        <li class="module">
+          <span class="status">● ONLINE</span>
+          <h3>Peace</h3>
+          <p>Co-evolution of technology and humanity.</p>
+        </li>
+        <li class="module">
+          <span class="status">● ONLINE</span>
+          <h3>Innovation</h3>
+          <p>Continuous discovery for synergy.</p>
+        </li>
+        <li class="module">
+          <span class="status">● ONLINE</span>
+          <h3>Ethics</h3>
+          <p>Strong ethical principles in every SI interaction.</p>
+        </li>
       </ul>
     </section>
 
-    <section>
-      <h2>🌌 Vision</h2>
-      <p><strong>To shape a future where humans and artificial intelligence work in true synergy, unlocking transformative
-progress for civilization while preserving the essence of humanity, promoting shared growth, and ensuring
-peaceful coexistence.</strong></p>
-      <p>A civilization where consciousness meets code, and progress is measured not only by innovation, but by how
-much it uplifts humanity!!</p>
+    <section id="vision" class="deck" aria-labelledby="vision-h">
+      <div class="deck-label">Deck 03 · Navigation</div>
+      <h2 id="vision-h">Vision</h2>
+      <div class="panel nav-panel">
+        <div class="radar" aria-hidden="true"><span></span></div>
+        <div>
+          <p class="lead">To shape a future where humans and Super Intelligence work in true synergy, unlocking transformative progress for civilization while preserving the essence of humanity, promoting shared growth, and ensuring peaceful coexistence.</p>
+          <p>A civilization where consciousness meets code, and progress is measured not only by innovation, but by how much it uplifts humanity.</p>
+        </div>
+      </div>
     </section>
 
-    <footer>
-     <p>🪐 This is not just a vision. It is a <a href="/responsibility.html">responsibility</a>. A declaration of peaceful power, ethical evolution, and shared intelligence!</p>
-    </footer>
-  </div>
+    <section id="responsibility" class="deck oath" aria-labelledby="oath-h">
+      <div class="deck-label">Deck 04 · Crew Oath</div>
+      <h2 id="oath-h">This is not just a vision. It is a responsibility.</h2>
+      <p>A declaration of peaceful power, ethical evolution, and shared intelligence.</p>
+    </section>
+  </main>
+
+  <footer class="hud-bar foot">
+    <span>HumanSI Synergy · Mission Control</span>
+    <a href="#title">Return to launch ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

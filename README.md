@@ -1,25 +1,33 @@
-# Mission
+# HumanSI Synergy — Mission
 
-A vibrant mission-focused website built with HTML and CSS. Features a visually stunning cyberpunk-inspired theme.
+The mission statement, core values and vision of **HumanSI Synergy**: a peaceful partnership between humanity and Super Intelligence (SI).
 
-## Installation
-1. Clone the repository:  
-   `git clone https://github.com/Ranjith1605/mission.git`
-2. Open `index.html` in your browser.
+Live: https://ranjith1605.github.io/mission/
 
-## Features
-- Cyberpunk mode background with glowing text.
-- Responsive design for all devices.
+## Design
 
-## Technologies Used
-- HTML
-- CSS
+Spaceship-themed UI. The page is laid out as decks of a starship:
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+- **Launch**: hero with a countdown and the HumanSI Synergy title
+- **Deck 01 · Bridge**: the mission statement
+- **Deck 02 · Ship Systems**: the core values, shown as "online" ship modules
+- **Deck 03 · Navigation**: the vision, with a radar sweep
+- **Deck 04 · Crew Oath**: the responsibility
+
+A canvas starfield moves behind the page. The HUD bar shows a stardate computed from the visitor's clock. All motion stops for visitors who have turned on "reduce motion".
+
+## Run locally
+
+Clone the repo and open `index.html` in a browser. There is no build step.
+
+```
+git clone https://github.com/Ranjith1605/mission.git
+```
+
+## Technologies
+
+HTML, CSS and vanilla JavaScript. The fonts are Orbitron and Space Grotesk, from Google Fonts.
 
 ## License
-[MIT License](LICENSE)
 
-## Acknowledgments
-- Inspired by cyberpunk aesthetics.
+MIT
